@@ -241,3 +241,4 @@ def format_thread(thread: dict, own_address: str) -> str:
         role = "Harbor & Pine support" if own_address.lower() in sender.lower() else "Customer"
         parts.append(f"{role} ({sender}):\n{strip_quoted(get_body(message))}")
     return "\n\n".join(parts)
+    

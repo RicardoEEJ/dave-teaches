@@ -1,0 +1,5 @@
+{
+    // Shift+Enter sends the selected code (or the current line) to the Jupyter Interactive Window
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "python.defaultInterpreterPath": "C:\\Users\\Nitropc\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+}
